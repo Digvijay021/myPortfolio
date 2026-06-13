@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digvijay — Full Stack Developer</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
+    </head>
+<body>
+
+<div class="cursor" id="cursor"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+
+<!-- NAV -->
+<nav id="nav">
+    <a href="#home" class="logo" style="text-decoration:none;">Digvijay<span>.</span></a>
+    <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="mobile-menu" id="mobileMenu">
+        <span></span><span></span><span></span>
+    </div>
+</nav>
+
+<!-- HERO -->
+<section id="home">
+    <div class="hero">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+
+        <div class="hero-content">
+            <div class="hero-badge reveal">Available for work</div>
+            <h1 class="hero-title">
+                <span class="line reveal">Digvijay</span>
+                <span class="line reveal outline">Full Stack</span>
+                <span class="line reveal accent">Developer</span>
+            </h1>
+            <p class="hero-description reveal">
+                Crafting beautiful, responsive, and interactive web experiences with modern technologies.
+                Passionate about clean code, innovative design, and user-centric development.
+            </p>
+            <div class="hero-actions reveal">
+                <a href="mailto:digvijayjaiswal540@gmail.com" class="btn-primary">Get In Touch ↗</a>
+                <a href="#skills" class="btn-ghost">View Skills</a>
+            </div>
+        </div>
+
+        <div class="profile-card reveal">
+            <div class="profile-frame">
+                <div class="placeholder">
+                    <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="40" cy="30" r="18" stroke="#6c47ff" stroke-width="2"/>
+                        <path d="M6 72c0-18.778 15.222-34 34-34s34 15.222 34 34" stroke="#6c47ff" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                    <span>Profile Photo</span>
+                </div>
+            </div>
+            <div class="profile-tag">B.Tech CSE · <strong>IMS Engineering</strong></div>
+            <div class="floating-chip chip-1">⚡ React &amp; GSAP</div>
+            <div class="floating-chip chip-2">🎨 UI / UX</div>
+        </div>
+
+        <div class="scroll-hint">
+            <div class="scroll-line"></div>
+            Scroll
+        </div>
+    </div>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- ABOUT -->
+<section id="about" class="section-wrap reveal">
+    <div class="section-label">About me</div>
+    <h2 class="section-heading">Turning ideas<br>into reality</h2>
+    <div class="about-grid">
+        <div class="about-text">
+            <p>
+                I'm a passionate Full Stack Developer with expertise in creating dynamic and responsive web applications.
+                With a strong foundation in both frontend and backend technologies, I enjoy turning complex problems
+                into simple, beautiful, and intuitive designs.
+            </p>
+            <p>
+                My goal is to build exceptional digital experiences that not only look great but also provide
+                seamless functionality — every pixel intentional, every interaction meaningful.
+            </p>
+        </div>
+        <div class="about-stats">
+            <div class="stat-card reveal">
+                <div class="stat-number">3+</div>
+                <div class="stat-label">Years of experience</div>
+            </div>
+            <div class="stat-card reveal">
+                <div class="stat-number">20+</div>
+                <div class="stat-label">Projects completed</div>
+            </div>
+            <div class="stat-card reveal">
+                <div class="stat-number">10+</div>
+                <div class="stat-label">Technologies mastered</div>
+            </div>
+            <div class="stat-card reveal">
+                <div class="stat-number">∞</div>
+                <div class="stat-label">Curiosity &amp; drive</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- SKILLS -->
+<section id="skills" class="skills-section">
+    <div class="section-wrap">
+        <div class="section-label">What I work with</div>
+        <h2 class="section-heading">Skills &amp;<br>Technologies</h2>
+
+        <div class="skills-grid">
+            <div class="skill-card reveal">
+                <div class="skill-icon icon-lime">🧱</div>
+                <div class="skill-category">Frontend Core</div>
+                <div class="skill-tags">
+                    <span class="skill-tag">HTML5</span>
+                    <span class="skill-tag">CSS3</span>
+                    <span class="skill-tag">JavaScript ES6+</span>
+                    <span class="skill-tag">Responsive Design</span>
+                    <!-- <span class="skill-tag">DOM Manipulation</span> -->
+                    <!-- <span class="skill-tag">SASS / LESS</span> -->
+                </div>
+            </div>
+            <div class="skill-card reveal">
+                <div class="skill-icon icon-violet">⚛️</div>
+                <div class="skill-category">Frameworks &amp; Libraries</div>
+                <div class="skill-tags">
+                    <span class="skill-tag">React.js</span>
+                    <span class="skill-tag">Next.js</span>
+                    <!-- <span class="skill-tag">Redux / Zustand</span> -->
+                    <span class="skill-tag">Tailwind CSS</span>
+                    <span class="skill-tag">Bootstrap</span>
+                </div>
+            </div>
+            <div class="skill-card reveal">
+                <div class="skill-icon icon-sky">💾</div>
+                <div class="skill-category">Programming &amp; Data</div>
+                <div class="skill-tags">
+                    <span class="skill-tag">C</span>
+                    <span class="skill-tag">Python</span>
+                    <span class="skill-tag">Java</span>
+                    <span class="skill-tag">SQL</span>
+                    <span class="skill-tag">Data Structures & Algorithms</span>
+                </div>
+            </div>
+            <div class="skill-card reveal">
+                <div class="skill-icon icon-lime">🛠️</div>
+                <div class="skill-category">Tools &amp; Workflow</div>
+                <div class="skill-tags">
+               <span class="skill-tag">Git</span>
+               <span class="skill-tag">GitHub</span>
+                    <span class="skill-tag">VS Code</span>
+                    <!-- <span class="skill-tag">Webpack / Vite</span> -->
+                    <!-- <span class="skill-tag">Figma</span> -->
+                    <!-- <span class="skill-tag">Lenis</span> -->
+                    <!-- <span class="skill-tag">GSAP</span> -->
+                </div>
+            </div>
+            <div class="skill-card reveal">
+                <div class="skill-icon icon-violet">✨</div>
+                <div class="skill-category">Animation &amp; Motion</div>
+                <div class="skill-tags">
+                    <span class="skill-tag">GSAP</span>
+                    <span class="skill-tag">CSS Animations</span>
+                    <!-- <span class="skill-tag">Lenis Scroll</span> -->
+                    <!-- <span class="skill-tag">Framer Motion</span> -->
+                </div>
+            </div>
+            <div class="skill-card reveal">
+                <div class="skill-icon icon-sky">🚀</div>
+                <div class="skill-category">Soft Skills</div>
+                <div class="skill-tags">
+                    <span class="skill-tag">Problem Solving</span>
+                    <span class="skill-tag">Team Collaboration</span>
+                    <span class="skill-tag">Clean Code</span>
+                    <span class="skill-tag">UI / UX Sense</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- EDUCATION -->
+<section id="education" class="section-wrap reveal">
+    <div class="section-label">Background</div>
+    <h2 class="section-heading">Education</h2>
+
+    <div class="education-block">
+        <div class="edu-icon">🎓</div>
+        <div>
+            <div class="edu-degree">Bachelor of Technology (B.Tech) in Computer Science</div>
+            <div class="edu-institution">IMS Engineering College</div>
+            <div class="edu-location">Ghaziabad, Uttar Pradesh</div>
+        </div>
+    </div>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- CONTACT -->
+<section id="contact" class="section-wrap">
+    <div class="contact-section reveal">
+        <div class="contact-blob contact-blob-1"></div>
+        <div class="contact-blob contact-blob-2"></div>
+        <div class="contact-eyebrow">Let's connect</div>
+        <h2 class="contact-heading">Let's Work<br>Together</h2>
+        <p class="contact-sub">Ready to bring your ideas to life? I'm always excited to work on new projects and collaborate with amazing people.</p>
+        <div class="contact-links">
+            <a href="mailto:digvijayjaiswal540@gmail.com" class="contact-chip">
+                <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                Email Me
+            </a>
+            <a href="https://www.linkedin.com/in/digvijay021/" target="_blank" rel="noopener" class="contact-chip">
+                <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+                LinkedIn
+            </a>
+            <a href="https://github.com/Digvijay021" target="_blank" rel="noopener" class="contact-chip">
+                <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                GitHub
+            </a>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Digvijay — Built with <span>passion</span> &amp; modern web technologies.</p>
+</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
